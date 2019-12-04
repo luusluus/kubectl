@@ -11,8 +11,12 @@ LABEL com.github.actions.description="Runs kubectl. The config can be provided w
 LABEL com.github.actions.icon="terminal"
 LABEL com.github.actions.color="blue"
 
+RUN curl -o /usr/local/bin/aws-iam-authenticator https://amazon-eks.s3-us-west-2.amazonaws.com/1.14.6/2019-08-22/bin/linux/amd64/aws-iam-authenticator
+RUN chmod +x /usr/local/bin/aws-iam-authenticator
+
 COPY LICENSE README.md /
 COPY entrypoint.sh /entrypoint.sh
+
 
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["help"]

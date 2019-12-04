@@ -1,6 +1,8 @@
 # Github Action for Kubernetes CLI
 
-This action provides `kubectl` for Github Actions.
+- This action provides `kubectl` for Github Actions.
+- folked for installing `aws-iam-authenticator`
+- This docker image can use `aws-iam-authenticator`
 
 ## Usage
 
