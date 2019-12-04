@@ -1,2 +1,6 @@
 name: kubectl-for-eks
 description: "This action provides kubectl for Github Actions. This action includes aws-iam-authenticator for accessing Amazon EKS."
+author: 'Akira Saito'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
