@@ -1,1 +1,2 @@
 name: kubectl-for-eks
+description: "This action provides kubectl for Github Actions. This action includes aws-iam-authenticator for accessing Amazon EKS. you need to add KUBE_CONFIG_DATA which is a base64-encoded kubeconfig file with credentials for Kubernetes to access the cluster."
