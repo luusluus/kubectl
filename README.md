@@ -19,7 +19,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: deploy to cluster
-      uses: luusluus/kubectl@v1.0.4
+      uses: luusluus/kubectl@v1.0.5
       env:
         KUBE_CONFIG_DATA: ${{ secrets.KUBE_CONFIG_DATA }}
       with:
