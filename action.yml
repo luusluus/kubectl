@@ -1,4 +1,4 @@
-name: kubectl-for-eks
+name: kubectl-eks-aws-iam-authenticator
 description: "This action provides kubectl for Github Actions. This action includes aws-iam-authenticator for accessing Amazon EKS."
 author: 'Lucien Martijn'
 runs:
