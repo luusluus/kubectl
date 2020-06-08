@@ -1,4 +1,4 @@
-# Github Action for Kubernetes CLI
+# Github Action for Kubernetes CLI with namespace
 
 - This action provides `kubectl` for Github Actions.
 - folked for installing `aws-iam-authenticator`
