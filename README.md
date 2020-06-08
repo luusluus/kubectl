@@ -3,6 +3,7 @@
 - This action provides `kubectl` for Github Actions.
 - folked for installing `aws-iam-authenticator`
 - This docker image can use `aws-iam-authenticator`
+- Option to use namespace `-n` in commands.
 
 ## Usage
 
